@@ -14,7 +14,7 @@ def quiz():
     # Question 2
     answer2 = input("What is the largest planet in our solar system? ")
     if answer2.lower() == "jupiter":
-        print("Correct!")
+        print("Correct!")                   
         score += 1
     else:
         print("Wrong! The correct answer is Jupiter.")
@@ -29,3 +29,4 @@ def quiz():
 
     # Final Score
     print(f"Your final score is: {score}/3")
+if __name__ == "__main__":    quiz()
